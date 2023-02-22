@@ -1038,6 +1038,14 @@ video {
   line-height: 34px;
 }
 
+.leading-\[40px\] {
+  line-height: 40px;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
 .tracking-\[0\.1em\] {
   letter-spacing: 0.1em;
 }
