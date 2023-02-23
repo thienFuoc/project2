@@ -8,11 +8,12 @@
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="./style.css">
   <!-- FONT FAMIY -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Mulish:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Mulish:wght@400;600;800&display=swap" rel="stylesheet">
   <!-- LOGO WEB -->
   <link rel="web icon" type="image/png" href="./img/FedyDev-logo.png">
   <!-- SCRIPT -->
   <script defer src="https://cdn.tailwindcss.com"></script>
+  <script defer src="./app.js"></script>
 </head>
 <body class="font-['Mulish'] text-[16px]">
   <header class="w-full h-screen bg-[url('./img/hero-image-mobile.png')] bg-no-repeat bg-cover bg-center z-0 relative lg:h-screen lg:bg-[url('./img/hero-img-destop.png')]">
@@ -154,30 +155,30 @@
           </div>
         </div>
         <!-- CHOICE -->
-        <div class="flex flex-col items-center px-[33px] pb-[98px] gap-[30px] lg:px-0 lg:flex-row lg:justify-between md:grid md:grid-cols-2 md:grid-rows-2 md:grid-flow-col">
+        <div class="flex flex-col items-center px-[33px] pb-[98px] gap-[30px] lg:px-0 lg:flex-row lg:justify-between lg:grid-cols-none lg:grid-rows-none md:grid md:grid-cols-2 md:grid-rows-2 md:grid-flow-col">
             <div class="relative rounded-[18px] overflow-hidden shadow-md lg:shadow-none">
               <img src="./img/e-books.png" alt="Books image" class="object-cover z-[-1]"> 
-              <img src="" alt="" class="object-cover z-[-1] visible lg:invisible">
+
               <div class="absolute inset-0  z-[1] bg-gradient-to-b from-[#ffffff2d] via-[#ffffff2c] to-[#00000080]"></div>
-              <span class="flex justify-center  text-[#FFFFFF] absolute bottom-[5px] w-full opacity-80 z-10 lg:mb-5">E-BOOKS</span>
+              <span class="flex justify-center mb-[20px] text-[#FFFFFF] absolute bottom-[5px] w-full opacity-80 z-10 lg:mb-5">E-BOOKS</span>
             </div>
             <div class="relative rounded-[18px] overflow-hidden shadow-md lg:shadow-none">
               <img src="./img/videos.png" alt="Computer image" class="object-cover z-[-1]">
-              <img src="" alt="" class="object-cover z-[-1] visible lg:invisible">
+
               <div class="absolute inset-0  z-[1] bg-gradient-to-b from-[#ffffff2d] via-[#ffffff2c] to-[#00000080]"></div>
-              <span class="flex justify-center  text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 lg:mb-5">VIDEOS</span>
+              <span class="flex justify-center mb-[20px] text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 lg:mb-5">VIDEOS</span>
             </div>
             <div class="relative rounded-[18px] overflow-hidden shadow-md lg:shadow-none">
               <img src="./img/recipes.png" alt="Recipes image" class="object-cover z-[-1]">
-              <img src="" alt="" class="object-cover z-[-1] visible lg:invisible">
+
               <div class="absolute inset-0  z-[1] bg-gradient-to-b from-[#ffffff2d] via-[#ffffff2c] to-[#00000080]"></div>
-              <span class="flex justify-center  text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 lg:mb-5">RECIPES</span>
+              <span class="flex justify-center mb-[20px] text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 lg:mb-5">RECIPES</span>
             </div>
             <div class="relative rounded-[18px] overflow-hidden shadow-md lg:shadow-none">
               <img src="./img/exercises.png" alt="Exercises image" class="object-cover z-[-1]">
-              <img src="" alt="" class="object-cover z-[-1] visible lg:invisible">
+
               <div class="absolute inset-0  z-[1] bg-gradient-to-b from-[#ffffff2d] via-[#ffffff2c] to-[#00000080]"></div>
-              <span class="flex justify-center  text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 lg:mb-5">EXERCISES </span>
+              <span class="flex justify-center mb-[20px] text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 lg:mb-5">EXERCISES </span>
             </div>
         </div>
         <!-- BUTTON -->
@@ -193,12 +194,12 @@
       <div class="container mx-auto flex flex-col gap-[122px] pt-[111px] pb-[100px] lg:gap-[110px]">
         <!-- HEADING -->
         <div>
-          <h2 class="text-center text-[#FFD30B] font-['Inter'] font-[600] text-[28px] leading-[34px] lg:text-[36px] lg:leading-none">Join others to improve your life</h2>
+          <h2 class="text-center text-[#FFD30B] font-['Inter'] font-[600] text-[28px] leading-[34px] px-[32px] lg:text-[36px] lg:leading-none">Join others to improve your life</h2>
         </div>
         <!-- CONTENT -->
-        <div class="flex flex-col gap-[150px] lg:w-full lg:flex lg:flex-row lg:gap-[165px] lg:px-[140px] md:w-full md:gap-[150px] md:items-center">
+        <div class="flex flex-col gap-[150px] lg:w-full lg:flex lg:flex-row lg:gap-[165px] lg:px-[140px] md:w-full md:gap-[150px] md:items-center md:px-0">
           <!-- APP -->
-          <div class="px-[15px] relative lg:px-0 lg:w-1/2">
+          <div class="px-[15px] mx-auto relative lg:px-0 lg:w-1/2">
             <!-- ======= DESKTOP ======= -->
             <!-- MOBILE 01 -->
             <div class="lg:border-[5px] lg:border-black lg:rounded-[18px] lg:w-max lg:h-max lg:overflow-hidden lg:relative hidden lg:block lg:z-0">
@@ -270,6 +271,230 @@
       <!-- BUTTON -->
       <div class="w-full flex justify-center mb-[140px] lg:mb-[168px]">
         <a href="#" type="button" class="font-[700] text-white text-center text-[22px] py-[14px] px-[57px] rounded-lg shadow-md bg-[#FFD30B] lg:hover:shadow-[5px_10px_15px_rgba(0,0,0,.2)] lg:duration-500">Sign me up</a>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="w-full">
+      <!-- WRAPPER -->
+      <div class="py-[84px] px-[32px] bg-gradient-to-l from-[#FFD30BBF] via-[#FFD30B] to-[#FFD30B] text-center lg:pb-[360px] lg:pt-[120px]">
+        <div class="flex flex-col gap-[18px] lg:gap-0">
+          <h2 class="font-['Inter'] font-[600] text-[#FFFFFF] text-[28px] px-[32px] lg:text-[36px]">Flexible pricing, Cancel anytime</h2>
+          <p class="font-[600] text-[#EDF2F7] text-[18px] leading-[27px] lg:leading-8">Take a step closer to a meaningful life and powerful mindset by joining us</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SALE -->
+    <section class="bg-[#FDFCF5] w-full h-auto border border-[#FDFCF5] rounded-[12px] overflow-hidden -mt-[40px] shadow-[0px_2px_16px_rgba(14,30,37,0.32)] lg:mx-auto lg:w-max lg:-mt-[300px]">
+      <!-- WRAPPER -->
+      <div class="pt-[87px] w-full lg:pt-[60px] lg:flex lg:items-center lg:gap-10 lg:p-[60px]">
+        <!-- LEFT -->
+        <div class="flex flex-col gap-[54px] pb-[100px] lg:pb-0 lg:max-w-[542px]">
+          <h2 class="font-['Inter'] font-[600] text-[18px] text-[#FFD30B] tracking-widest leading-[22px] mx-auto lg:mx-0">THE SEATS ARE RUNNING OUT</h2>
+          <div class="grid grid-cols-1 grid-rows-4 lg:grid-cols-2 lg:grid-rows-2 gap-y-[38px] px-[42px] lg:px-0 lg:gap-x-[22px] lg:gap-y-[50px] lg:w-full md:w-max md:mx-auto">
+            <div class="flex gap-[14px] ">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD30B" class="w-6 h-6">
+                  <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                </svg>                
+              </span>
+              <span class="font-[400] text-[18px] leading-[27px]">
+                New theme and content every month
+              </span>
+            </div>
+            <div class="flex gap-[14px] ">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD30B" class="w-6 h-6">
+                  <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                </svg>                
+              </span>
+              <span class="font-[400] text-[18px] leading-[27px]">
+                Videos, e-books, exercises, recipes, guides, and more
+              </span>
+            </div>
+            <div class="flex gap-[14px] ">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD30B" class="w-6 h-6">
+                  <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                </svg>                
+              </span>
+              <span class="font-[400] text-[18px] leading-[27px]">
+                Like-minded community and friendly hosts
+              </span>
+            </div>
+            <div class="flex gap-[14px] ">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD30B" class="w-6 h-6">
+                  <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                </svg>                
+              </span>
+              <span class="font-[400] text-[18px] leading-[27px]">
+                Cancel anytime, no question asked
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT -->
+        <div class="flex flex-col w-full gap-8 pb-[120px] lg:pb-0 lg:flex-row lg:gap-0 lg:w-max md:flex-row md:px-[40px] md:gap-0">
+          <!-- ONE YEAR -->
+          <div class="mx-auto border border-[#C4B15D40] lg:w-max">
+            <!-- CONTENT INSIDE -->
+            <div class="flex flex-col items-center text-center gap-[40px] py-[35px] px-[95px] lg:p-9">
+              <div class="font-['Inter'] font-[600] tracking-widest">
+                <h3 class="text-[#403C2B]">ONE YEAR</h3>
+                <p class="text-[12px] text-[#FFD30B]">SAVE 2 MONTHS</p>
+              </div>
+              <div class="flex flex-col gap-[2px] font-['Inter']">
+                <div class="flex items-center gap-[6px] text-[#FFD30B] font-[600]">
+                  <span class="text-[30px]">$</span>
+                  <span class="text-[44px] tracking-wide">99</span>
+                </div>
+                <span class="font-[500] text-[#718096] tracking-widest">PER YEAR</span>
+              </div>
+              <div>
+                <a href="#" type="button" class="py-3 px-[33px] bg-[#FFD30B] font-[800] text-white rounded-[5px] shadow-[5px_5px_10px_rgba(0,0,0,.1)] lg:hover:transform lg:hover:-translate-y-[1px] lg:active:translate-y-0 lg:duration-300">Select Plan</a>
+              </div>
+            </div>
+          </div>
+          <!-- ONE MONTH -->
+          <div class="mx-auto border border-[#C4B15D40] lg:w-max">
+            <!-- CONTENT INSIDE -->
+            <div class="flex flex-col items-center text-center gap-[40px] py-[35px] px-[95px] lg:p-9">
+              <div class="font-['Inter'] font-[600] tracking-widest">
+                <h3 class="text-[#403C2B]">ONE MONTH</h3>
+                <p class="text-[12px] text-[#FFD30B]">ONLY $2.5 A WEEK</p>
+              </div>
+              <div class="flex flex-col gap-[2px] font-['Inter']">
+                <div class="flex items-center gap-[6px] text-[#FFD30B] font-[600]">
+                  <span class="text-[30px]">$</span>
+                  <span class="text-[44px] tracking-wide">10</span>
+                </div>
+                <span class="font-[500] text-[#718096] tracking-widest">PER MONTH</span>
+              </div>
+              <div>
+                <a href="#" type="button" class="py-3 px-[33px] font-[800] rounded-[5px] border-2 border-[#FFD30B] text-[#FFD30B] bg-[#FDFCF5] shadow-sm lg:hover:transform lg:active:translate-y-0 lg:hover:bg-[#FFD30B] lg:hover:text-white lg:hover:shadow-md lg:duration-500">Select Plan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- PAYMENT WRAPPER -->
+      <div class="pt-[57px] pb-[72px] px-[42px] bg-white lg:py-[48px] lg:px-[60px]">
+        <!-- CONTENT -->
+      <div class="flex flex-col items-center gap-[65px] lg:flex-row lg:justify-between">
+        <h4 class="font-['Inter'] font-[600] text-[#718096] text-[18px] w-full text-center tracking-widest lg:w-max">SECURED PAYMENTS:</h2>
+          <div class="grid grid-cols-4 grid-rows-2 grid-flow-row gap-x-[14px] gap-y-[11px] lg:grid-cols-8 lg:gap-x-[16px] lg:grid-rows-none">
+            <img src="./img/payment-1.png" alt="Payment image">
+            <img src="./img/payment-2.png" alt="Payment image">
+            <img src="./img/payment-3.png" alt="Payment image">
+            <img src="./img/payment-4.png" alt="Payment image">
+            <img src="./img/payment-5.png" alt="Payment image">
+            <img src="./img/payment-6.png" alt="Payment image">
+            <img src="./img/payment-7.png" alt="Payment image">
+            <img src="./img/payment-8.png" alt="Payment image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAST SECTION -->
+    <section class="mt-[150px] pb-[140px] lg:pb-[137px] w-full">
+      <!-- WRAPPER -->
+      <div class="flex flex-col gap-[122px] px-[32px] lg:px-[140px]">
+        <!-- TOP -->
+        <div class="flex flex-col gap-[60px] lg:flex-row lg:gap-[116px]">
+          <!-- 1ST PARAGRAPH -->
+          <div class="text-[#403C2B] flex flex-col gap-[25px]">
+            <h3 class="font-[600] text-[20px]">The mindset creation story</h3>
+            <div class="flex flex-col gap-[27px] leading-[30px] text-[18px] font-[400] ">
+              <p>A yearly program where we share proven, timeless knowledge and inspire you to get more out of yourself and your life!</p>
+              <p>What will following the Mindset program bring you?</p>
+              <p>Powerful habits that will help you get back in control of your life and keep it!</p>
+              <p>Having control of your life will mean that you will have less stress, feel more energetic, able to focus, perform optimally, feel vibrant, better relationships, and feel happier.</p>
+            </div>
+          </div>
+          <!-- 2ND PARAGRAPH -->
+          <div class="text-[#403C2B] flex flex-col gap-[25px]">
+            <h3 class="font-[600] text-[20px]">A world of abundance</h3>
+            <div class="flex flex-col gap-[27px] leading-[30px] text-[18px] font-[400]">
+              <p>A yearly program where we share proven, timeless knowledge and inspire you to get more out of yourself and your life!</p>
+              <p>What will following the Mindset program bring you?</p>
+              <p>Powerful habits that will help you get back in control of your life and keep it!</p>
+              <p>Having control of your life will mean that you will have less stress, feel more energetic, able to focus, perform optimally, feel vibrant, better relationships, and feel happier.</p>
+            </div>
+          </div>
+        </div>
+        <!-- BOT -->
+        <div class="flex flex-col items-center gap-[30px] lg:px-0 lg:flex-row lg:justify-between lg:grid-cols-none lg:grid-rows-none md:grid md:grid-cols-2 md:grid-rows-2 md:grid-flow-col">
+          <div class="relative rounded-[18px] overflow-hidden shadow-md max-w-[350px] max-h-[224px] lg:shadow-lg">
+            <img src="./img/customer-1.png" alt="Customer image" class=" object-cover z-0"> 
+            <div class="absolute inset-0  z-[1] bg-gradient-to-b from-[#ffffff02] via-[#ffffff02] to-[#000000cb]"></div>
+            <span class="flex justify-center mb-[20px] text-[#ffffff] absolute bottom-[5px] w-full opacity-80 z-10 uppercase lg:mb-5">TEAM VERTELLIS</span>
+          </div>
+          <div class="relative rounded-[18px] overflow-hidden shadow-md max-w-[350px] max-h-[224px] lg:shadow-lg">
+            <img src="./img/customer-2.png" alt="Costomer image" class=" object-cover z-[-1]">
+            <div class="absolute inset-0  z-[1] bg-gradient-to-b from-[#ffffff02] via-[#ffffff02] to-[#000000cb]"></div>
+            <span class="flex justify-center mb-[20px] text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 uppercase lg:mb-5">Lizette Zeeman</span>
+          </div>
+          <div class="relative rounded-[18px] overflow-hidden shadow-md max-w-[350px] max-h-[224px] lg:shadow-lg">
+            <img src="./img/customer-3.png" alt="Customer image" class=" object-cover z-[-1]">
+            <div class="absolute inset-0  z-[1] bg-gradient-to-b from-[#ffffff02] via-[#ffffff02] to-[#000000cb]"></div>
+            <span class="flex justify-center mb-[20px] text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 uppercase lg:mb-5">Bart Kloosterhuis</span>
+          </div>
+          <div class="relative rounded-[18px] overflow-hidden shadow-md max-w-[350px] max-h-[224px] lg:shadow-lg">
+            <img src="./img/customer-4.png" alt="Customer image" class="object-cover z-[-1]">
+            <div class="absolute inset-0  z-[1] bg-gradient-to-b from-[#ffffff02] via-[#ffffff02] to-[#000000cb]"></div>
+            <span class="flex justify-center mb-[20px] text-[#FFFFFF] absolute bottom-0 w-full opacity-80 z-10 uppercase lg:mb-5">Lars Blokdijk</span>
+          </div>
+        </div>
+        <!-- BUTTON -->
+        <div class="font-700 text-[22px] w-full flex justify-center">
+          <a href="#" type="button" class="py-[15px] px-[57px] text-white bg-[#FFD30B] rounded-[8px]">Sign me up</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FQA -->
+    <section class="bg-[#FDFCF5] w-full">
+      <!-- WRAPPER -->
+      <div class="pt-[120px] px-[33px] lg:pt-[120px] lg:px-[338px]">
+        <!-- HEADING -->
+        <div>
+          <h2 class="font-['Inter'] font-[600] text-[28px] leading-[34px] text-center text-[#FFD30B] pb-[71px] border-b-2 border-[#C4B15D66]">Frequently asked questions</h2>
+        </div>
+        <!-- QUESTION -->
+        <div>
+          <div class="py-[32px] border-b-2 border-[#C4B15D66] flex justify-between items-center gap-[76px]">
+            <p class="font-[600] text-[#403C2B] leading-[24px]">What can I expect from Vertellis Mindset?</p>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" id="svgElement">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>              
+            </span>
+          </div>
+          <div class="py-[32px] border-b-2 border-[#C4B15D66] flex justify-between items-center gap-[76px]">
+            <p class="font-[600] text-[#403C2B] leading-[24px]">How much time do I have to invest in Vertellis Mindset?</p>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>              
+            </span>
+          </div>
+          <div class="py-[32px] border-b-2 border-[#C4B15D66] flex justify-between items-center gap-[76px]">
+            <p class="font-[600] text-[#403C2B] leading-[24px]">What if I don’t like the program? </p>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>              
+            </span>
+          </div>
+        </div>
+        <!-- COPYRIGHT -->
+        <div class="mt-[178px] pb-12 w-full flex justify-center">
+          <span class="font-[400] text-[#968F71] leading-4">Copyright Vertellis 2020, All rights reserved</span>
+        </div>
       </div>
     </section>
   </main>
